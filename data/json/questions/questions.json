@@ -1,0 +1,15 @@
+[
+    {
+        "questionNumber": 1,
+        "scenario": "A student wants to display a greeting message using Python. They are trying to use the print function.",
+        "question": "Which of the following is the correct way to print 'Hello, World!' in Python?",
+        "options": [
+            "1. print('Hello, World!')",
+            "2. Print('Hello, World!')",
+            "3. echo 'Hello, World!'",
+            "4. printf('Hello, World!')"
+        ],
+        "explanation": "In Python, the correct syntax to display text to the console is using the print function with parentheses. 'Print' with an uppercase 'P' and other functions are either not applicable or syntactically incorrect in Python.",
+        "answer": "1. print('Hello, World!')"
+    }
+]

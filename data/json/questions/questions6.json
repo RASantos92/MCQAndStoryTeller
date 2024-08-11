@@ -1,0 +1,145 @@
+[
+    {
+        "questionNumber": 0,
+        "scenario": "You are writing a program that needs to store the names of students in a list as they register for a class.",
+        "question": "What data type would be most appropriate to store multiple names in this program?",
+        "options": [
+            "1. Integer",
+            "2. String",
+            "3. List",
+            "4. Tuple"
+        ],
+        "explanation": "A list is the best option for storing multiple items like student names because it allows for dynamic sizing and is designed to hold a collection of items.",
+        "answer": "3. List"
+    },
+    {
+        "questionNumber": 1,
+        "scenario": "A programmer is creating a program that calculates the area of a circle based on user input for the radius.",
+        "question": "Which function from the math module would the programmer need to calculate the area?",
+        "options": [
+            "1. sqrt()",
+            "2. pi",
+            "3. pow()",
+            "4. floor()"
+        ],
+        "explanation": "To calculate the area of a circle, A = \u03c0r\u00b2 is used. The constant \u03c0 (pi) is available in the math module as math.pi.",
+        "answer": "2. pi"
+    },
+    {
+        "questionNumber": 2,
+        "scenario": "A programmer is writing a Python program to manage a list of scores for a game.",
+        "question": "What Python data structure should they use to store multiple scores?",
+        "options": [
+            "1. String",
+            "2. List",
+            "3. Integer",
+            "4. Tuple"
+        ],
+        "explanation": "A list is a data structure that can hold multiple values and allows dynamic changes (like adding or removing scores) compared to other data types.",
+        "answer": "2. List"
+    },
+    {
+        "questionNumber": 3,
+        "scenario": "A teacher is developing a program to calculate the average score of her students. She needs to get inputs from the user.",
+        "question": "What built-in Python function will allow the teacher to read input from the user?",
+        "options": [
+            "1. open()",
+            "2. read()",
+            "3. input()",
+            "4. write()"
+        ],
+        "explanation": "The 'input()' function is used in Python to take input from the user when developing interactive programs.",
+        "answer": "3. input()"
+    },
+    {
+        "questionNumber": 4,
+        "scenario": "A novice programmer is trying to perform a basic calculation of adding two numbers in Python.",
+        "question": "Which operator should the programmer use to add two numbers in Python?",
+        "options": [
+            "1. *",
+            "2. +",
+            "3. -",
+            "4. /"
+        ],
+        "explanation": "In Python, the plus sign (+) is used as the addition operator to calculate the sum of two numbers.",
+        "answer": "2. +"
+    },
+    {
+        "questionNumber": 5,
+        "scenario": "A programmer is writing a function to check if a number is even or odd. They need to return 'Even' if the number is even and 'Odd' if it is odd.",
+        "question": "Which operator should the programmer use to determine if a number is even?",
+        "options": [
+            "1. /",
+            "2. %",
+            "3. *",
+            "4. +"
+        ],
+        "explanation": "The % (modulus) operator returns the remainder of a division operation. If the remainder when a number is divided by 2 is 0, the number is even. Thus, the correct operator to use for this scenario is the modulus operator (%).",
+        "answer": "2. %"
+    },
+    {
+        "questionNumber": 6,
+        "scenario": "A student is learning to write conditional statements in their Python code. They want to print a message if their variable 'age' is greater than 18.",
+        "question": "Which conditional statement should the student use to achieve this functionality?",
+        "options": [
+            "1. if age > 18:",
+            "2. unless age > 18:",
+            "3. when age > 18:",
+            "4. if age >= 18:"
+        ],
+        "explanation": "The correct way to check a condition in Python is by using the 'if' statement followed by the condition. In this case, 'if age > 18:' is the correct option.",
+        "answer": "1. if age > 18:"
+    },
+    {
+        "questionNumber": 7,
+        "scenario": "A beginner programmer is trying to create a simple program to greet a user. They want to display a message that says 'Hello, World!' when the program runs.",
+        "question": "Which line of code will correctly display the greeting message in Python?",
+        "options": [
+            "1. echo 'Hello, World!'",
+            "2. printf('Hello, World!')",
+            "3. print('Hello, World!')",
+            "4. write('Hello, World!')"
+        ],
+        "explanation": "In Python, the correct way to display output is using the print() function.",
+        "answer": "3. print('Hello, World!')"
+    },
+    {
+        "questionNumber": 8,
+        "scenario": "A student is writing a program to check if a number is positive or negative. They need to compare the number to zero.",
+        "question": "Which comparison operator should the student use to check if the number is greater than zero?",
+        "options": [
+            "1. >",
+            "2. <",
+            "3. =",
+            "4. !="
+        ],
+        "explanation": "The '>' operator is used to check if one number is greater than another number. In this case, it allows checking if the input number is greater than zero.",
+        "answer": "1. >"
+    },
+    {
+        "questionNumber": 9,
+        "scenario": "A user wants to convert a given temperature from Celsius to Fahrenheit in a Python program.",
+        "question": "Which formula should the programmer use to make this temperature conversion?",
+        "options": [
+            "1. Fahrenheit = Celsius * 9/5 + 32",
+            "2. Fahrenheit = Celsius + 32",
+            "3. Fahrenheit = (Celsius - 32) * 5/9",
+            "4. Fahrenheit = Celsius * 5/9 + 32"
+        ],
+        "explanation": "The correct formula to convert Celsius to Fahrenheit is Fahrenheit = (Celsius * 9/5) + 32.",
+        "answer": "1. Fahrenheit = Celsius * 9/5 + 32"
+    },
+    {
+        "questionNumber": 10,
+        "scenario": "A student is trying to print the numbers from 1 to 10 in Python.",
+        "question": "Which loop structure should the student use to repeat this action?",
+        "options": [
+            "1. for loop",
+            "2. while loop",
+            "3. do-while loop",
+            "4. conditional loop"
+        ],
+        "explanation": "A 'for loop' is most suitable for iterating a fixed number of times, such as printing numbers from 1 to 10.",
+        "answer": "1. for loop"
+    }
+]

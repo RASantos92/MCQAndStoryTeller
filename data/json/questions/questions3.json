@@ -1,0 +1,145 @@
+[
+    {
+        "questionNumber": 0,
+        "scenario": "You are learning how to store information in a Python program. You want to keep track of names of students in a class.",
+        "question": "What Python data type would be best to store a list of student names?",
+        "options": [
+            "1. List",
+            "2. Integer",
+            "3. String",
+            "4. Tuple"
+        ],
+        "explanation": "A list is a collection that allows you to store multiple items in a single variable. It is the ideal choice for storing multiple names as you can easily add or remove students.",
+        "answer": "1. List"
+    },
+    {
+        "questionNumber": 1,
+        "scenario": "You are a teacher who needs to keep track of students' names for an upcoming class. You have a list of all your students and want to choose the best data type in Python to hold these names.",
+        "question": "What Python data type would be best to store a list of student names?",
+        "options": [
+            "1. String",
+            "2. List",
+            "3. Tuple",
+            "4. Set"
+        ],
+        "explanation": "A list is the best choice for storing a collection of items, such as student names, that may need to be modified in the future (e.g., adding or removing names).",
+        "answer": "2. List"
+    },
+    {
+        "questionNumber": 2,
+        "scenario": "You are developing an application to manage a library's book inventory.",
+        "question": "Which data type would be most appropriate to hold a collection of book titles in Python?",
+        "options": [
+            "1. String",
+            "2. List",
+            "3. Integer",
+            "4. Dictionary"
+        ],
+        "explanation": "A list is the best choice for storing multiple values, such as a collection of book titles, as it allows for ordering and easy access to each title.",
+        "answer": "2. List"
+    },
+    {
+        "questionNumber": 3,
+        "scenario": "You are developing a program for a library to manage book titles. You need to keep track of all the titles in a flexible manner.",
+        "question": "Which data type would be most appropriate to hold a collection of book titles in Python?",
+        "options": [
+            "1. Tuple",
+            "2. List",
+            "3. Dictionary",
+            "4. Set"
+        ],
+        "explanation": "A List is the most appropriate data type for holding a collection of book titles as it allows for storing multiple items and offers easy access and manipulation.",
+        "answer": "2. List"
+    },
+    {
+        "questionNumber": 4,
+        "scenario": "A teacher has a list of students in their classroom and wants to store this list for easy access throughout the year.",
+        "question": "Which Python data type is best for storing the list of student names?",
+        "options": [
+            "1. Dictionary",
+            "2. List",
+            "3. Set",
+            "4. Tuple"
+        ],
+        "explanation": "A List is the most suitable data type for storing a collection of items in an ordered fashion, allowing for duplicates and easy manipulation.",
+        "answer": "2. List"
+    },
+    {
+        "questionNumber": 5,
+        "scenario": "You are building a small application for tracking students' scores in different subjects. You need to keep the scores in a format that allows easy modifications and retrievals.",
+        "question": "Which data type should you use to store the students' scores in Python?",
+        "options": [
+            "1. List",
+            "2. Tuple",
+            "3. Set",
+            "4. Dictionary"
+        ],
+        "explanation": "A list is suitable for storing scores because it allows modifications (adding/removing scores) and maintains order, which is helpful in this context.",
+        "answer": "1. List"
+    },
+    {
+        "questionNumber": 6,
+        "scenario": "You are developing a program that needs to keep track of the number of students enrolled in various courses. Each course will have an integer count of students enrolled.",
+        "question": "What Python data type would you use to store the number of students in a course?",
+        "options": [
+            "1. List",
+            "2. String",
+            "3. Integer",
+            "4. Dictionary"
+        ],
+        "explanation": "An integer data type is the best choice for storing a whole number representing the count of students in a course.",
+        "answer": "3. Integer"
+    },
+    {
+        "questionNumber": 7,
+        "scenario": "A teacher needs to keep track of the classes they teach and their respective class sizes.",
+        "question": "Which Python data type would be most suitable to store the number of students in each class?",
+        "options": [
+            "1. List",
+            "2. Dictionary",
+            "3. Integer",
+            "4. String"
+        ],
+        "explanation": "An integer is the most appropriate data type to represent the number of students since it is a numerical value.",
+        "answer": "3. Integer"
+    },
+    {
+        "questionNumber": 8,
+        "scenario": "You have a list of student names and you need to store them in a variable for easy access.",
+        "question": "What Python data type would be best to store a list of student names?",
+        "options": [
+            "1. List",
+            "2. Dictionary",
+            "3. Set",
+            "4. Tuple"
+        ],
+        "explanation": "A list is the most suitable data type for storing a collection of items (in this case, student names) as it allows for easy addition, removal, and access of elements using indices.",
+        "answer": "1. List"
+    },
+    {
+        "questionNumber": 9,
+        "scenario": "A teacher is gathering information about students in their class and needs to keep a record of each student's age.",
+        "question": "What data type should the teacher use to store each student's age in Python?",
+        "options": [
+            "1. List",
+            "2. Dictionary",
+            "3. Integer",
+            "4. String"
+        ],
+        "explanation": "Since ages are whole numbers, the best data type to store each student's age would be Integer.",
+        "answer": "3. Integer"
+    },
+    {
+        "questionNumber": 10,
+        "scenario": "A teacher wants to store the ages of her students to calculate class average. Each age will be a whole number.",
+        "question": "What data type should the teacher use to store each student's age in Python?",
+        "options": [
+            "1. List",
+            "2. String",
+            "3. Integer",
+            "4. Dictionary"
+        ],
+        "explanation": "The correct data type for storing ages (which are whole numbers) is Integer, as it represents numeric values without decimals.",
+        "answer": "3. Integer"
+    }
+]

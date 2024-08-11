@@ -1,0 +1,145 @@
+[
+    {
+        "questionNumber": 0,
+        "scenario": "Alice is trying to store the number of hours she works each week in a variable.",
+        "question": "What type of variable should Alice use to store the hours worked, which are numerical?",
+        "options": [
+            "1. String",
+            "2. List",
+            "3. Integer",
+            "4. Dictionary"
+        ],
+        "explanation": "Since Alice is storing hours worked in a numerical format, using an integer is more appropriate as it represents whole numbers (e.g., 40 hours).",
+        "answer": "3. Integer"
+    },
+    {
+        "questionNumber": 1,
+        "scenario": "A beginner is learning to code and wants to print their name to the console in Python.",
+        "question": "What is the correct way to print 'Alice' to the console in Python?",
+        "options": [
+            "print(Alice)",
+            "print('Alice')",
+            "Print('Alice')",
+            "echo('Alice')"
+        ],
+        "explanation": "In Python, the print function is used to display output to the console. To output a string, it needs to be enclosed in quotes. Therefore, print('Alice') is the correct syntax.",
+        "answer": "print('Alice')"
+    },
+    {
+        "questionNumber": 2,
+        "scenario": "You are a beginner programmer working on a simple project to calculate the sum of two numbers.",
+        "question": "What Python function is commonly used to get user input in a console application?",
+        "options": [
+            "print()",
+            "input()",
+            "get()",
+            "scan()"
+        ],
+        "explanation": "The input() function is used to take input from users in Python. It reads a line from input, converts it to a string, and returns it.",
+        "answer": "input()"
+    },
+    {
+        "questionNumber": 3,
+        "scenario": "You are writing a Python program to calculate the area of a rectangle based on user input.",
+        "question": "What Python function would you use to get input from the user?",
+        "options": [
+            "1. input()",
+            "2. read_input()",
+            "3. scan_input()",
+            "4. get_input()"
+        ],
+        "explanation": "The correct function to use for getting input from the user in Python is 'input()' which prompts the user and returns the input as a string.",
+        "answer": "1. input()"
+    },
+    {
+        "questionNumber": 4,
+        "scenario": "You are writing a program to calculate the area of a rectangle. You have the length as 5 and the width as 10.",
+        "question": "What is the formula to calculate the area of a rectangle?",
+        "options": [
+            "length + width",
+            "length - width",
+            "length * width",
+            "length / width"
+        ],
+        "explanation": "The correct formula for the area of a rectangle is length * width, which gives us a result of 50 for the given length and width.",
+        "answer": "length * width"
+    },
+    {
+        "questionNumber": 5,
+        "scenario": "A student is learning Python and wants to print 'Hello, World!' to the console.",
+        "question": "What is the correct Python code to print 'Hello, World!'?",
+        "options": [
+            "print('Hello, World!')",
+            "echo 'Hello, World!'",
+            "printf('Hello, World!')",
+            "write('Hello, World!')"
+        ],
+        "explanation": "The correct syntax in Python to print output to the console is to use 'print()' function with the string inside parentheses.",
+        "answer": "print('Hello, World!')"
+    },
+    {
+        "questionNumber": 6,
+        "scenario": "You are writing a program to display 'Hello, World!' to the user. You need to choose the correct command to output text to the console.",
+        "question": "What is the correct way to print 'Hello, World!' in Python?",
+        "options": [
+            "print 'Hello, World!'",
+            "echo 'Hello, World!'",
+            "print('Hello, World!')",
+            "write('Hello, World!')"
+        ],
+        "explanation": "In Python, the print function is used to display text. The correct syntax is print('Hello, World!').",
+        "answer": "print('Hello, World!')"
+    },
+    {
+        "questionNumber": 7,
+        "scenario": "A beginner programmer is trying to store the age of a person in a variable.",
+        "question": "What type of value should he assign the variable to store an age?",
+        "options": [
+            "1. String",
+            "2. List",
+            "3. Integer",
+            "4. Dictionary"
+        ],
+        "explanation": "The age of a person is a numerical value and can be represented as an integer, which is a whole number without a decimal.",
+        "answer": "3. Integer"
+    },
+    {
+        "questionNumber": 8,
+        "scenario": "You are writing a Python script to calculate the area of a rectangle. The user is prompted to enter the length and the breadth of the rectangle.",
+        "question": "What would be the correct way to calculate the area of the rectangle using the variables length and breadth?",
+        "options": [
+            "length * breadth",
+            "length + breadth",
+            "length - breadth",
+            "length / breadth"
+        ],
+        "explanation": "The area of a rectangle is calculated by multiplying its length and breadth. Therefore, the correct option is 'length * breadth'.",
+        "answer": "length * breadth"
+    },
+    {
+        "questionNumber": 9,
+        "scenario": "You are writing a program to calculate the sum of two numbers entered by the user.",
+        "question": "Which function in Python is used to obtain input from the user?",
+        "options": [
+            "1. input()",
+            "2. print()",
+            "3. scan()",
+            "4. get()"
+        ],
+        "explanation": "The input() function in Python is used to read input from the user. It takes a prompt as an argument and returns the input as a string.",
+        "answer": "1. input()"
+    },
+    {
+        "questionNumber": 10,
+        "scenario": "A student is learning how to store values in a variable in Python. They create a variable named 'age' and assign a value of 20 to it.",
+        "question": "What is the correct syntax for assigning a value to a variable in Python?",
+        "options": [
+            "a) age = 20",
+            "b) 20 = age",
+            "c) var age: 20",
+            "d) age: 20"
+        ],
+        "explanation": "In Python, variables are assigned values using the equals sign '='. Therefore, the correct syntax is 'age = 20'.",
+        "answer": "a) age = 20"
+    }
+]

@@ -1,0 +1,145 @@
+[
+    {
+        "questionNumber": 0,
+        "scenario": "You are learning about data types in Python and come across variables that can store different types of values.",
+        "question": "Which of the following is a valid way to create a variable that stores a string in Python?",
+        "options": [
+            "1. my_variable = 'Hello, World!'",
+            "2. my_variable = 'Hello, World!",
+            "3. my_variable = Hello, World",
+            "4. my_variable = \"Hello, World!"
+        ],
+        "explanation": "In Python, strings can be defined using single quotes or double quotes. Option 1 and Option 4 correctly demonstrate this, while Options 2 and 3 are improperly formatted.",
+        "answer": "1. my_variable = 'Hello, World!'"
+    },
+    {
+        "questionNumber": 1,
+        "scenario": "A new developer is writing a program in Python and wants to display a welcoming message. They decide to use the 'print()' function to show the message to the user.",
+        "question": "Which Python function is used to output data to the console?",
+        "options": [
+            "1. output()",
+            "2. print()",
+            "3. display()",
+            "4. echo()"
+        ],
+        "explanation": "The print() function in Python is used to output data to the console, making it the correct answer.",
+        "answer": "2. print()"
+    },
+    {
+        "questionNumber": 2,
+        "scenario": "Imagine you are developing a simple calculator program in Python. You want to store the first number entered by the user.",
+        "question": "How would you store a number inputted by the user in a variable?",
+        "options": [
+            "1. num = input()",
+            "2. num <- input()",
+            "3. num : input()",
+            "4. num is input()"
+        ],
+        "explanation": "In Python, the correct way to store user input from the console is by using 'num = input()'. The input function reads a line from input and returns it as a string.",
+        "answer": "1. num = input()"
+    },
+    {
+        "questionNumber": 3,
+        "scenario": "You are building a program that calculates the area of a rectangle. To do this, you need to store the length and width provided by the user.",
+        "question": "Which of the following is the correct way to declare a variable for the length of the rectangle in Python?",
+        "options": [
+            "1. length: int = 5",
+            "2. length = 5",
+            "3. int length = 5",
+            "4. length(5)"
+        ],
+        "explanation": "In Python, you simply assign a value to a variable without needing to specify the type explicitly. Option 2 demonstrates this correctly.",
+        "answer": "2. length = 5"
+    },
+    {
+        "questionNumber": 4,
+        "scenario": "A programmer is learning to use lists in Python and wants to create a list of integers from 1 to 5.",
+        "question": "How would the programmer correctly create a list containing the integers from 1 to 5?",
+        "options": [
+            "1. list = [1, 2, 3, 4, 5]",
+            "2. list = (1, 2, 3, 4, 5)",
+            "3. list = {1, 2, 3, 4, 5}",
+            "4. list = 1, 2, 3, 4, 5"
+        ],
+        "explanation": "In Python, lists are created using square brackets []. The correct way to create a list containing integers from 1 to 5 is using the notation: list = [1, 2, 3, 4, 5].",
+        "answer": "1. The correct answer is 1."
+    },
+    {
+        "questionNumber": 5,
+        "scenario": "A programmer is writing a script to check if a number is even or odd. They know how to use the modulus operator to do this.",
+        "question": "Which operator would the programmer use to check if a number is even?",
+        "options": [
+            "1. /",
+            "2. %",
+            "3. -",
+            "4. *"
+        ],
+        "explanation": "The modulus operator (%) is used to find the remainder of division. If the remainder when dividing by 2 is 0, the number is even.",
+        "answer": "2. %"
+    },
+    {
+        "questionNumber": 6,
+        "scenario": "Maria is learning Python and wants to add two numbers together.",
+        "question": "How can Maria accurately add two numbers together in Python?",
+        "options": [
+            "1. result = number1 + number2",
+            "2. result = number1 - number2",
+            "3. result = number1 * number2",
+            "4. result = number1 / number2"
+        ],
+        "explanation": "In Python, the plus operator (+) is used to perform addition. The correct way to add two numbers is to use the statement 'result = number1 + number2'.",
+        "answer": "1. result = number1 + number2"
+    },
+    {
+        "questionNumber": 7,
+        "scenario": "Alex is learning how to write conditional statements in Python. He wants to check if a given number is positive, negative, or zero.",
+        "question": "Which of the following conditional statements correctly evaluates if a number 'num' is zero?",
+        "options": [
+            "1) if num = 0:",
+            "2) if num == 0:",
+            "3) if (num == 0) then:",
+            "4) if (num = 0) then:"
+        ],
+        "explanation": "In Python, the equality operator '==' is used to compare values, whereas '=' is used for assignment. Therefore, the correct syntax to check if 'num' is zero uses '=='.",
+        "answer": "2) if num == 0:"
+    },
+    {
+        "questionNumber": 8,
+        "scenario": "Alice is learning how to use loops in Python. She wants to repeat a block of code three times to print 'Hello!'",
+        "question": "Which loop structure would Alice use to print 'Hello!' three times?",
+        "options": [
+            "1. if loop",
+            "2. for loop",
+            "3. while loop",
+            "4. switch loop"
+        ],
+        "explanation": "The best choice for repeating code a specific number of times is the 'for loop'. It allows you to iterate over a range of numbers.",
+        "answer": "2. for loop"
+    },
+    {
+        "questionNumber": 9,
+        "scenario": "Johnny is learning how to create a simple program to check if a number is positive or negative. He wants to print 'Positive' if the number is greater than 0.",
+        "question": "What conditional statement should Johnny use to check if the number is positive?",
+        "options": [
+            "1. if number > 0:",
+            "2. if number < 0:",
+            "3. if number = 0:",
+            "4. if number => 0:"
+        ],
+        "explanation": "The correct way to check if a number is greater than 0 in Python is by using 'if number > 0:', which evaluates to True for positive numbers.",
+        "answer": "1. if number > 0:"
+    },
+    {
+        "questionNumber": 10,
+        "scenario": "Alex is learning about data types in Python. He needs to understand how to create a list to store multiple values efficiently.",
+        "question": "What is the correct way for Alex to create a list containing the numbers 1, 2, and 3?",
+        "options": [
+            "1. list(1, 2, 3)",
+            "2. [1, 2, 3]",
+            "3. (1, 2, 3)",
+            "4. {1, 2, 3}"
+        ],
+        "explanation": "In Python, lists are created using square brackets. Therefore, the correct syntax is [1, 2, 3].",
+        "answer": "2. [1, 2, 3]"
+    }
+]

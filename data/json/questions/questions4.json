@@ -1,0 +1,145 @@
+[
+    {
+        "questionNumber": 0,
+        "scenario": "A student is learning how to write a simple program that prints 'Hello World'. They know that they need to use a print function in Python.",
+        "question": "Which Python function should the student use to print 'Hello World'?",
+        "options": [
+            "1. display()",
+            "2. echo()",
+            "3. print()",
+            "4. write()"
+        ],
+        "explanation": "In Python, the correct function to print output to the console is 'print()'.",
+        "answer": "3. print()"
+    },
+    {
+        "questionNumber": 1,
+        "scenario": "A student is experimenting with different operators in Python. They want to find the result of multiplying two numbers, 5 and 10.",
+        "question": "What will the result of the multiplication operation 5 * 10 be?",
+        "options": [
+            "40",
+            "50",
+            "60",
+            "70"
+        ],
+        "explanation": "In Python, the '*' operator is used for multiplication. Therefore, 5 * 10 equals 50.",
+        "answer": "2"
+    },
+    {
+        "questionNumber": 2,
+        "scenario": "A novice programmer wants to build a simple calculator using Python. They want to start by accepting two numbers from the user.",
+        "question": "What function should the programmer use to get user input in Python?",
+        "options": [
+            "1. input()",
+            "2. get()",
+            "3. read()",
+            "4. fetch()"
+        ],
+        "explanation": "The input() function is used in Python to take user input as a string.",
+        "answer": "1. input()"
+    },
+    {
+        "questionNumber": 3,
+        "scenario": "A new programmer is learning how to define variables in Python. She wants to store her age in a variable.",
+        "question": "What is the correct way to define her age as a variable in Python?",
+        "options": [
+            "1. age = 25",
+            "2. 25 = age",
+            "3. define age = 25",
+            "4. int age = 25"
+        ],
+        "explanation": "In Python, you define a variable by assigning a value to it using the equals sign without needing any type declaration like 'int'.",
+        "answer": "1. age = 25"
+    },
+    {
+        "questionNumber": 4,
+        "scenario": "A beginner programmer is learning about data types in Python. They want to store a person's age and are unsure which data type to use.",
+        "question": "Which data type should the beginner programmer use to store an age in Python?",
+        "options": [
+            "1. int",
+            "2. str",
+            "3. float",
+            "4. bool"
+        ],
+        "explanation": "The correct data type to store an age is 'int' because age is represented as a whole number.",
+        "answer": "1. int"
+    },
+    {
+        "questionNumber": 5,
+        "scenario": "A teacher has assigned a project where students must store their favorite color in a variable.",
+        "question": "What is the correct way to create a variable for storing a favorite color in Python?",
+        "options": [
+            "color = 'blue'",
+            "color : 'blue'",
+            "color == 'blue'",
+            "color -> 'blue'"
+        ],
+        "explanation": "In Python, to assign a value to a variable, we use the '=' operator. The other options do not correctly assign a value to a variable.",
+        "answer": "1"
+    },
+    {
+        "questionNumber": 6,
+        "scenario": "A programmer is tasked with writing a code that needs to check if a number is even or odd. He wants to do this using a conditional statement.",
+        "question": "Which conditional statement should the programmer use to check if a number is even?",
+        "options": [
+            "if number % 2 == 0:",
+            "if number % 2 = 0:",
+            "if number / 2 == 0:",
+            "if number // 2 == 0:"
+        ],
+        "explanation": "In Python, to check if a number is even, one can use the modulo operator (%) which gives the remainder. If the remainder when dividing the number by 2 is 0, then the number is even. Therefore, the correct condition is 'if number % 2 == 0:'.",
+        "answer": "1"
+    },
+    {
+        "questionNumber": 7,
+        "scenario": "A student is trying to understand how to create a list in Python to store names of students.",
+        "question": "How can the student create a list named 'students'?",
+        "options": [
+            "1. students = list()",
+            "2. students = []",
+            "3. students = {}",
+            "4. students = ()"
+        ],
+        "explanation": "In Python, a list can be created using square brackets or the list() function. Using 'students = []' creates an empty list.",
+        "answer": "2. students = []"
+    },
+    {
+        "questionNumber": 8,
+        "scenario": "A student wants to perform a simple addition of two numbers in their program.",
+        "question": "Which operator should the student use to add two numbers in Python?",
+        "options": [
+            "1. -",
+            "2. +",
+            "3. *",
+            "4. /"
+        ],
+        "explanation": "In Python, the + operator is used for addition of numbers.",
+        "answer": "2. +"
+    },
+    {
+        "questionNumber": 9,
+        "scenario": "A student is learning how to use loops in Python. They want to print the numbers from 1 to 5 using a loop.",
+        "question": "Which loop would be most appropriate for this task?",
+        "options": [
+            "1. for loop",
+            "2. while loop",
+            "3. do while loop",
+            "4. None of the above"
+        ],
+        "explanation": "A 'for loop' is most appropriate for iterating over a range of numbers, making it ideal for printing numbers from 1 to 5.",
+        "answer": "1. for loop"
+    },
+    {
+        "questionNumber": 10,
+        "scenario": "A student is learning to use lists in Python and wants to store a collection of their favorite cities.",
+        "question": "How should the student declare a list that includes the cities 'Paris', 'London', and 'Tokyo'?",
+        "options": [
+            "list favorite_cities = ['Paris', 'London', 'Tokyo']",
+            "favorite_cities = ['Paris', 'London', 'Tokyo']",
+            "favorite_cities: ['Paris', 'London', 'Tokyo']",
+            "lit favorite_cities = ('Paris', 'London', 'Tokyo')"
+        ],
+        "explanation": "In Python, lists are defined by assigning a variable with square brackets containing the list elements. Therefore, the correct declaration is 'favorite_cities = ['Paris', 'London', 'Tokyo']'.",
+        "answer": "2"
+    }
+]

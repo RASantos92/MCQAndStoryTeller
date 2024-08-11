@@ -1,0 +1,145 @@
+[
+    {
+        "questionNumber": 0,
+        "scenario": "A beginner programmer is writing a Python script to print 'Hello, World!' to the console. They want to understand the correct syntax for printing output in Python.",
+        "question": "What is the correct syntax to print 'Hello, World!' in Python?",
+        "options": [
+            "1. echo 'Hello, World!'",
+            "2. print('Hello, World!')",
+            "+3. print('Hello, World!')",
+            "4. printf('Hello, World!')"
+        ],
+        "explanation": "In Python, the print() function is used to output text to the console. The correct syntax includes parentheses around the string to be printed.",
+        "answer": "3"
+    },
+    {
+        "questionNumber": 1,
+        "scenario": "A student is learning about variables in Python. They need to store their age and want to know the correct way to define a variable.",
+        "question": "How should the student correctly define a variable to store their age in Python?",
+        "options": [
+            "1. age = 20",
+            "2. age : 20",
+            "+3. age = 20 # This is correct syntax",
+            "4. 20 = age"
+        ],
+        "explanation": "In Python, a variable is defined using the assignment operator '='. The variable name should come before the equal sign, followed by the value to be assigned.",
+        "answer": "3"
+    },
+    {
+        "questionNumber": 2,
+        "scenario": "Imagine you are creating a simple Python program that will output the result of adding two numbers.",
+        "question": "What operator would you use to add two numbers in Python?",
+        "options": [
+            "1) -",
+            "2) +",
+            "3) *",
+            "4) /"
+        ],
+        "explanation": "In Python, the '+' operator is used to perform addition between two numeric values.",
+        "answer": "2) +"
+    },
+    {
+        "questionNumber": 3,
+        "scenario": "A student is trying to understand how to create variables in Python to hold data like their name and age.",
+        "question": "How do you create a variable to store a person's name in Python?",
+        "options": [
+            "1. name = 'John'",
+            "2. 'John' = name",
+            "3. var name = 'John'",
+            "4. name: 'John'"
+        ],
+        "explanation": "In Python, you create a variable by using the syntax variable_name = value. Therefore, the correct way to create a variable to store the name is 'name = 'John''.",
+        "answer": "1. name = 'John'"
+    },
+    {
+        "questionNumber": 4,
+        "scenario": "A student is trying to learn about variables in Python. They are puzzled about how to store values in a variable.",
+        "question": "What keyword is used to define a variable in Python?",
+        "options": [
+            "1. let",
+            "2. var",
+            "+3. None",
+            "4. def"
+        ],
+        "explanation": "In Python, the keyword 'None' is used to assign a null value to a variable, not to define it. Python allows you to create variables without a need for explicit declaration keyword for general variables, it utilizes the assignment operator.",
+        "answer": "3. None"
+    },
+    {
+        "questionNumber": 5,
+        "scenario": "You are writing a simple program to calculate the sum of two numbers inputted by the user.",
+        "question": "What function would you use to get input from the user in Python?",
+        "options": [
+            "1. input() +",
+            "2. print()",
+            "3. str()",
+            "4. read()"
+        ],
+        "explanation": "The input() function allows you to take input from the user as a string. It is essential for interactive programs where user input is necessary.",
+        "answer": "1"
+    },
+    {
+        "questionNumber": 6,
+        "scenario": "You are tasked with writing a Python program to greet users based on input. If the user enters their name, the program should return a greeting sentence.",
+        "question": "What is the correct way to get user input in Python?",
+        "options": [
+            "1. input('Enter your name: ') +",
+            "2. getinput('Enter your name: ')",
+            "3. echo('Enter your name: ')",
+            "4. readinput('Enter your name: ')"
+        ],
+        "explanation": "In Python, the correct way to get user input is using the `input()` function which prompts the user with a string argument.",
+        "answer": "1"
+    },
+    {
+        "questionNumber": 7,
+        "scenario": "A student is learning about variables in Python and wants to store their age in a variable.",
+        "question": "What is the correct way to define a variable for age in Python?",
+        "options": [
+            "a) age = 25",
+            "b) 25 = age",
+            "c) var age = 25",
+            "d) age: 25"
+        ],
+        "explanation": "In Python, variables are created by assigning a value to them using the equals sign. The correct syntax is to write the variable name followed by the equals sign and then the value.",
+        "answer": "a) age = 25"
+    },
+    {
+        "questionNumber": 8,
+        "scenario": "You are designing a program to check whether a number is even or odd.",
+        "question": "How would you check if a number is even in Python?",
+        "options": [
+            "1. num % 2 == 0 +",
+            "2. num / 2 == 0",
+            "3. num // 2 == 0",
+            "4. num % 2 == 1"
+        ],
+        "explanation": "The correct way to check if a number is even in Python is to use the modulus operator '%'. If the remainder of num when divided by 2 is 0, then the number is even.",
+        "answer": "1. num % 2 == 0"
+    },
+    {
+        "questionNumber": 9,
+        "scenario": "Alice is trying to calculate the sum of numbers from 1 to 10 using Python. She knows that she must use a loop to iterate through the numbers.",
+        "question": "What type of loop can Alice use to iterate through numbers in Python?",
+        "options": [
+            "1. if loop",
+            "2. while loop",
+            "+3. for loop",
+            "4. do while loop"
+        ],
+        "explanation": "A 'for loop' is typically used to iterate over a sequence of numbers in Python. It allows Alice to easily access each number from 1 to 10 for her sum calculation.",
+        "answer": "3"
+    },
+    {
+        "questionNumber": 10,
+        "scenario": "You are writing a program to calculate the square of a number input by the user.",
+        "question": "How would you read an integer input from the user in Python?",
+        "options": [
+            "1. input(int())",
+            "2. int(input()) +",
+            "3. input() int()",
+            "4. read(int(input()))"
+        ],
+        "explanation": "In Python, to read a user input as an integer, you first read the input as a string using `input()` and then convert it to an integer using `int()`. The correct syntax is `int(input())`.",
+        "answer": "2. int(input()) +"
+    }
+]
